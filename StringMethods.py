@@ -152,3 +152,40 @@ print(x)
 txt = "Welcome to the jungle"
 x = txt.split()
 print(x)
+
+''' startswith() - Returns True if the string starts with the specified value, otherwise False. '''
+txt = "Hello this is my arena"
+stVar = txt.startswith("Hello")
+print(stVar)
+
+''' endswith() - Returns True if the string ends with the specified value, otherwise False '''
+txt = "Hello this is my arena"
+endVar = txt.endswith("arena")
+print(endVar)
+
+''' strip()      - Removes any spaces at the beginning and any spaces at the end. '''
+txt = "          banana          "
+stpVar = txt.strip()
+print(stpVar)
+
+''' swapcase()   - Swaps cases, lower case becomes upper case and vice versa. '''
+txt = "hELLO tHIS iS kARTIK"
+x = txt.swapcase()
+print(x)
+
+''' title()      - Converts the first character of each word to upper case. '''
+txt = "Welcome to my arena warehouse"
+x = txt.title()
+print(x)
+
+''' translate()  - Returns a translated string.''' 
+myDict = {83: 80}
+txt = "Hello Sam!"
+print(txt.translate(myDict))
+
+''' zfill()      - Fills the string with a specified number of 0 values at the beginning. '''
+txt = "5154515"
+x = txt.zfill(10)
+print(x)
+
+                                                                       ''' --------- THANK YOU! ----------- '''
